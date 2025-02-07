@@ -2,13 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 
 # === Configuration ===
-SUBREDDIT_NAME = 'python'  # change to your target subreddit
-KEYWORD = 'tutorial'       # change to your filter keyword
+SUBREDDIT_NAME = 'forhire'  # change to your target subreddit
+KEYWORD = '[hiring]'       # change to your filter keyword
 URL = f"https://old.reddit.com/r/{SUBREDDIT_NAME}/new/"
 
 # Use a valid User-Agent header to avoid being blocked
 headers = {
-    "User-Agent": "Mozilla/5.0 (compatible; RedditScraper/1.0; +https://example.com)"
+    "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
 }
 
 # === Fetch the webpage ===
